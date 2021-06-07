@@ -8,11 +8,11 @@ public class PlayGround {
 	private float size;
 	private int availableHours;
 	private float pricePerHour;
-	private Date cancellationPeriod;
+	private String cancellationPeriod;
 	
 	
 	
-public void AddPlaygroundInfo(String name,String location , float size, int availableHours, float pricePerHour, Date cancellationPeriod) {
+public void AddPlaygroundInfo(String name,String location , float size, int availableHours, float pricePerHour, String cancellationPeriod) {
 		this.name=name;
 		this.location=location;
 		this.size=size;

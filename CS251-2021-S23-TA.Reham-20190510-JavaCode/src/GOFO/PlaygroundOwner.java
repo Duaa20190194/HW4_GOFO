@@ -17,6 +17,6 @@ public class PlaygroundOwner {
 		this.Location=Location;
 		}
 	public void display() {
-		System.out.println(Name+" "+ID+" "+Email+" "+Phone +" "+ Location);
+		System.out.println("your informations is: "+Name+" "+ID+" "+Email+" "+Phone +" "+ Location);
 	}
 }

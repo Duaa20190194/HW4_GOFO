@@ -10,7 +10,15 @@ public class PlayGround {
 	private float pricePerHour;
 	private String cancellationPeriod;
 	
-	
+	/**
+	 * This is a function that add information of a playground
+	 * @param name
+	 * @param location
+	 * @param size
+	 * @param availableHours
+	 * @param pricePerHour
+	 * @param cancellationPeriod
+	 */		
 	
 public void AddPlaygroundInfo(String name,String location , float size, int availableHours, float pricePerHour, String cancellationPeriod) {
 		this.name=name;
@@ -20,6 +28,9 @@ public void AddPlaygroundInfo(String name,String location , float size, int avai
 		this.pricePerHour=pricePerHour;
 		this.cancellationPeriod=cancellationPeriod;
 	}
+/**
+ * This is a function that display the information stored of the playground
+ */
 public void display() {
 System.out.println("your playgrounds information is: name: "+ name+ " location: "+location+" size: "+size+" available hours: "+availableHours+" price per hour: "+pricePerHour+" cancelation period: "+cancellationPeriod);
 

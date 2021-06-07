@@ -16,6 +16,7 @@ public class Main {
 			String Name= scan.nextLine();
 			System.out.println("enter your ID");
 			int ID= scan.nextInt(); 
+			scan.nextLine();
 			System.out.println("enter your password");
 			String Password= scan.nextLine();
 			System.out.println("enter your email");
@@ -39,6 +40,7 @@ public class Main {
 			int availableHours=scan.nextInt();
 			System.out.println("enter the price per hour");
 			float pricePerHour=scan.nextFloat();
+			scan.nextLine();
 			System.out.println("enter the cancellation period");
 			String cancellationPeriod=scan.nextLine();
 			

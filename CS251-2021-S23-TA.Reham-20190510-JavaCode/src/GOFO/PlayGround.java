@@ -21,7 +21,7 @@ public void AddPlaygroundInfo(String name,String location , float size, int avai
 		this.cancellationPeriod=cancellationPeriod;
 	}
 public void display() {
-System.out.println("your playgrounds information is: name: "+ name+ "location: "+location+"size: "+size+"available hours: "+availableHours+"price per hour: "+pricePerHour+"cancelation period: "+cancellationPeriod);
+System.out.println("your playgrounds information is: name: "+ name+ " location: "+location+" size: "+size+" available hours: "+availableHours+" price per hour: "+pricePerHour+" cancelation period: "+cancellationPeriod);
 
 }
 

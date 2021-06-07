@@ -43,6 +43,7 @@ public class Main {
 			String cancellationPeriod=scan.nextLine();
 			
 			pg.AddPlaygroundInfo(name, location, size, availableHours, pricePerHour, cancellationPeriod);
+			pg.display();
 		}
 	}
 	

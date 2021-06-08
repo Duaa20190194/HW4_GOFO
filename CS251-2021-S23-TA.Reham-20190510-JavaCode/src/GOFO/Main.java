@@ -12,31 +12,31 @@ public class Main {
 			PlayGround pg = new PlayGround();
 			system system = new system();
 			
-			System.out.println("enter your name");
+			System.out.println("Enter your name");
 			String Name = scan.nextLine();
-			System.out.println("enter your ID");
+			System.out.println("Enter your ID");
 			int ID = scan.nextInt(); 
 			scan.nextLine();
-			System.out.println("enter your password");
+			System.out.println("Enter your password");
 			String Password= scan.nextLine();
-			System.out.println("enter your email");
+			System.out.println("Enter your email");
 			String Email= scan.nextLine();
-			System.out.println("enter your phone");
+			System.out.println("Enter your phone");
 			String Phone= scan.nextLine();
-			System.out.println("enter your location");
+			System.out.println("Enter your location");
 			String Location = scan.nextLine();
 			
 			PO.Register(Name,ID,Password,Email,Phone ,Location);
 			system.CreateRegistration(PO);
 			
 			PO.display();
-			System.out.println("enter playgrounds name");
+			System.out.println("Enter playgrounds name");
 			String name=scan.nextLine();
-			System.out.println("enter playgrounds location");
+			System.out.println("Enter playgrounds location");
 			String location=scan.nextLine();
-			System.out.println("enter playgrounds size");
+			System.out.println("Enter playgrounds size");
 			float size=scan.nextFloat();
-			System.out.println("enter playgrounds available hours");
+			System.out.println("Enter playgrounds available hours");
 			int availableHours=scan.nextInt();
 			System.out.println("Enter the price per hour");
 			float pricePerHour=scan.nextFloat();

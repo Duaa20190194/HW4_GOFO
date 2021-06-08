@@ -10,12 +10,12 @@ public class Main {
 		try (Scanner scan = new Scanner(System.in)) {
 			PlaygroundOwner PO = new PlaygroundOwner();
 			PlayGround pg = new PlayGround();
-			system system=new system();
+			system system = new system();
 			
 			System.out.println("enter your name");
-			String Name= scan.nextLine();
+			String Name = scan.nextLine();
 			System.out.println("enter your ID");
-			int ID= scan.nextInt(); 
+			int ID = scan.nextInt(); 
 			scan.nextLine();
 			System.out.println("enter your password");
 			String Password= scan.nextLine();
@@ -38,10 +38,10 @@ public class Main {
 			float size=scan.nextFloat();
 			System.out.println("enter playgrounds available hours");
 			int availableHours=scan.nextInt();
-			System.out.println("enter the price per hour");
+			System.out.println("Enter the price per hour");
 			float pricePerHour=scan.nextFloat();
 			scan.nextLine();
-			System.out.println("enter the cancellation period");
+			System.out.println("Enter the cancellation period");
 			String cancellationPeriod=scan.nextLine();
 			
 			pg.AddPlaygroundInfo(name, location, size, availableHours, pricePerHour, cancellationPeriod);

@@ -11,7 +11,9 @@ public class Main {
 			PlaygroundOwner PO = new PlaygroundOwner();
 			PlayGround pg = new PlayGround();
 			system system = new system();
-			
+			Player player = new Player();
+           		Booking book = new Booking();
+					
 			System.out.println("Enter your name");
 			String Name = scan.nextLine();
 			System.out.println("Enter your ID");
@@ -46,6 +48,18 @@ public class Main {
 			
 			pg.AddPlaygroundInfo(name, location, size, availableHours, pricePerHour, cancellationPeriod);
 			pg.display();
+			
+			
+			System.out.println("enter your time slot");
+			int timeSlot = scan.nextInt();
+            		System.out.println("enter booking number");
+			int numofBooking = scan.nextInt();
+			book.selectPlayground(pg);
+          		book.displayPlaygroundInfo();
+        		book.BookTimeSlot(timeSlot, numofBooking );
+         		book.display();
+            
+            		player.BookingPlayground(book); 
 		}
 	}
 	
